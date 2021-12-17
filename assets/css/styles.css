@@ -203,52 +203,6 @@
         text-align: center;
     }
     
-    .clock {
-        width: 50%;
-        display: inline-flex;
-    }
-    
-    #clock span {
-        float: left;
-        text-align: center;
-        font-family: 'orkney-regular';
-        font-size: 20px;
-        color: #fdf5e6;
-        padding: 12px;
-    }
-    
-    #clock::after {
-        content: "";
-        display: block;
-        clear: both;
-    }
-    
-    #display span {
-        text-align: center;
-        color: #ddd;
-        font-size: 13px;
-        letter-spacing: 2px;
-        font-family: 'orkney-regular';
-    }
-    
-    #display span:nth-child(1) {
-        margin-top: 17px;
-        position: absolute;
-    }
-    
-    span.flip {
-        animation: flip 0.7s ease forwards;
-    }
-    
-    @keyframes flip {
-        0% {
-            transform: rotateX(0deg);
-        }
-        100% {
-            transform: rotateX(360deg);
-        }
-    }
-    
     #sign {
         position: absolute;
         margin-top: 7px;
